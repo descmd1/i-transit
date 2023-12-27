@@ -1,0 +1,175 @@
+.sign-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.p__register{
+    padding-left: 5rem;
+    font-weight: 700;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+.social{
+    float: left;
+    width: 25rem;
+    background-color: blueviolet;
+    opacity: .5;
+    text-align: center;
+}
+.register{
+    float: left;
+    width: 20rem;
+    background-color: white;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    justify-items: center;
+    justify-content: center;
+}
+.sign-input{
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: rgb(232, 240, 254)
+}
+.sign-button{
+    width: 15rem;
+    height: 2rem;
+    background-color: rgba(103, 58, 183);
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+.sign-label{
+    margin-top: 5px;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 5px;
+    padding-left: 2rem;
+}
+.__signin{
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+.signin__text{
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.__socialfb{
+    width: 18rem;
+    height: 2.5rem;
+    background-color: #3B579D;
+    margin-top: 1rem;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #3B579D;
+    justify-items: center;
+}
+.__socialtwit{
+    width: 18rem;
+    height: 2.5rem;
+    background-color: #00ACED;
+    margin-top: 2rem;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #00ACED;
+    justify-items: center;
+}
+.social-button{
+   display: flex;
+   flex-direction: column;
+   padding-left: 3.5rem;
+   padding-top: 5rem;
+}
+.join{
+    padding-top: 2rem;
+    color: white;
+}
+
+.password-toggle{
+    position: absolute;
+    margin-left: 11rem; 
+    z-index: 9;
+    margin-top: 4px;
+}
+.password-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 999;
+    width: 15rem;
+}
+
+
+
+
+
+
+.signup-page {
+    margin: auto;
+    width: 120%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  
+.passenger_page {
+    margin: auto;
+    width: 120%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
